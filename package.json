@@ -1,0 +1,22 @@
+{
+  "name": "keyauth-provider",
+  "version": "0.0.1",
+  "description": "OAuth like authentication flow based on RSA private key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "semu",
+  "license": "MIT",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "express": "^4.4.3",
+    "ursa": "^0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jslint": "~1.1.1",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
